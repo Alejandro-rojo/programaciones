@@ -1,0 +1,65 @@
+#1-verifica si el numero es positivo, negativo o cero 
+# numero=float(input("ingresa un numero: "))
+# if numero<0:
+#     print(f"{numero} es negativo")
+# elif numero>0:
+#     print(f"{numero} es positivo")
+# else:
+#     print(f"{numero} es cero")
+
+# #2-verifica el mayor de dos numero ingresados
+# num1=float(input("ingresa un numero: "))
+# num2=float(input("ingresa otro  numero: "))
+# if num1>num2:
+#     print(F"{num2} es menor que {num1}")
+# elif num1<num2:
+#     print(F"{num1} es menor que {num2}")
+# else:
+#     print(f"{num1} y {num2} son iguales")
+
+#3-determina si un numero es par o impar
+# num=int(input("ingresa un numero entero: "))
+# if num%2==0:
+#     print(f"{num} es par")
+# else:
+#     print(f"{num} es impar")
+
+#4-dado un numero, verifica si esta entre 10 y 20
+# num1=float(input("ingresa un numero: "))
+# if num1-10<=0:
+#     print(f"{num1} no esta entre 10 y 20 ")
+# elif num1+20>40:
+#     print(F"{num1} no esta entre 20 y 10")
+# elif num1==0:
+#     print(f"el cero no esta entre 20 y 10")
+# elif num1==20:
+#     print(F"{num1} no esta entre 20 y 10 porque no abarcamos los limites")
+# elif num1==10:
+#     print(F"{num1} no esta entre 20 y 10 porque no abarcamos los limites")
+# else:
+#     print(f"{num1} esta entre 20 y 10")
+
+#5-dado 3 numeros, encuentra el mayor usando condicionales
+num1=float(input("ingresa un numero: "))
+num2=float(input("ingresa un numero: "))
+num3=float(input("ingresa un numero: "))
+if num1*3==num2+num3+num1:
+    print(f"todos son iguales")
+elif num1+num2<num3:
+    print(f"{num3} es el mayor")
+elif num1+num3<num2:
+    print(f"{num2} es el mayor")
+elif num3+num2<num1:
+    print(f"{num1} es el mayor")
+elif num1>num2>num3:
+    print(F"{num1} es mayor que todos")
+elif num1>num3>num2:
+    print(F"{num1} es mayor que todos")
+elif num2>num1>num3:
+    print(F"{num2} es mayor que todos")
+elif num2>num3>num1:
+    print(F"{num2} es mayor que todos")
+elif num3>num1>num2:
+    print(F"{num3} es mayor que todos")
+elif num3>num2>num1:
+    print(F"{num3} es mayor que todos")
