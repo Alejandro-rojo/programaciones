@@ -274,7 +274,7 @@
 # horas=float(input("ingresa el numero de horas que trabajaste: "))
 # pago=horas*10000
 # if horas>=40:
-#     pago+=pago*0.1
+#     pago+=pago*0.1################
 #     print(pago)
 # else:
 #     print(pago)
