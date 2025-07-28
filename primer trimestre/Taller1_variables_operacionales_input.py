@@ -108,4 +108,4 @@
 # print(f"el promedio es {prom}")
 
 #21
-# nombre_1=str(input("¿cual es tu nombre?: "))
+# nombre_1=str(input("¿cual es tu nombre?: "))#sergiu
