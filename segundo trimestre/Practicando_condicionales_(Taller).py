@@ -10,7 +10,7 @@
 #     print(f"{numero} invalido")
 
 # #2-calcula el mayor
-# numero=float(input("ingresa un numero: "))
+# numero=float(input("ingresa un numero: ")
 # numero1=float(input("ingresa otro numero: "))
 # if numero<numero1:
 #     print(f"{numero1} es mayor que {numero}")
