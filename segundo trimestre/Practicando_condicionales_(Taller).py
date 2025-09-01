@@ -10,7 +10,7 @@
 #     print(f"{numero} invalido")
 
 # #2-calcula el mayor
-# numero=float(input("ingresa un numero: "))
+# numero=float(input("ingresa un numero: ")
 # numero1=float(input("ingresa otro numero: "))
 # if numero<numero1:
 #     print(f"{numero1} es mayor que {numero}")
@@ -134,3 +134,87 @@
 # if colombia[1]=="azul":
 #     colombia[1]="verde"
 #     print(colombia)
+
+##16-si el primer valor es menor que el ultimo
+# numeros=(5,8,12,20)
+# if numeros[0]<numeros[3]:
+#     print("orden asendente")
+# else:
+#     print("orden decendente")
+
+##17-verifica si es mayor que 30
+# edades=(25, 32, 28)
+# if edades[1]>30:
+#     print("edad mayor que 30")
+# else:
+#     print("edad igual o mayor a 30")
+
+##18-de tupla a lista
+# numeros=(1,2,3)
+# numero=list(numeros)#asi se pasa de tupla a lista
+# if numero[1]==2:
+#     numero[1]=10
+#     numeros=tuple(numero)#y aqui es lo contrario
+# print(numeros)
+
+##19-cordenadas altas
+# cords=(4,9)
+# if cords[1]>5:
+#     print("coordenada alta")
+# else:
+#     print("coordenada baja")
+
+##20-son iguales las tuplas?
+# tupla1=(3,4)
+# tupla2=(3,5)
+# if tupla1==tupla2:
+#     print("Tuplas iguales")
+# else:
+#     ("tuplas diferentes")
+
+##21-es un adluto?
+# info={
+#     "nombre":"juan",
+#     "edad":17
+# }
+# if info["edad"]>=18:
+#     print("ES UN ADULTO")
+# else:
+#     print("MENOR DE EDAD")
+
+##22-camobia la edad a 21
+# info={
+#     "nombre":"Lucia",
+#     "edad":20
+# }
+# if info["edad"]>18:
+#     info["edad"]=21
+# print(info)
+
+##23-existe bogota?
+# carlangas={
+#     "nombre":"Carlos"
+# }
+# if "ciudad" not in carlangas:#pues a ver esto no nos lo han enseñado  pero es una forma sencilla de decir que no esta en la lista ademas que traducido al español es eso
+#     carlangas["ciudad"]="bogota"
+#     print(carlangas)
+
+##24-el pan tiene precio?
+# panaderia={
+#     "producto":"pan",
+#     "precio":1200
+#     }
+# if "precio" in panaderia:
+#     print(panaderia["precio"])
+# else:
+#     print("no hay precio")
+
+##25-hay pan?
+# tienda={
+#     "pan":1200,
+#     "leche":2000
+#     }
+# if "pan" in tienda:
+#     print(tienda["pan"])
+# else:
+#     print("no disponible")
